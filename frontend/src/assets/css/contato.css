@@ -1,0 +1,73 @@
+.contato {
+  width: 80%;
+  padding: 3rem 2rem;
+  margin: 0 auto;
+}
+.contato__titulo {
+  text-align: center;
+  font-size: 3rem;
+  padding: 2rem 1.5rem;
+  font-weight: 700;
+}
+.contato__subtitulo {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0 0 1rem 0;
+  color: var(--cinza-texto);
+}
+
+.contato__form {
+  margin-top: 2rem;
+}
+
+.contato__form--input-padrao {
+  display: block;
+  margin: 0 0 1.2rem;
+  padding: 0.625rem 1.2rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+.contato__etiqueta {
+  display: block;
+  font-size: 1.5rem;
+  margin: 0 0 0.625rem;
+}
+.checkboks {
+  margin: 1.2rem 0;
+}
+
+.btn-custom {
+  width: 100%;
+  padding: 0.938rem 0;
+  font-weight: bold;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 0.313rem;
+}
+.btn-custom--lote {
+  background: orange;
+  color: #000;
+}
+.btn-custom--enviar {
+  background: greenyellow;
+  color: #fff;
+}
+.enviar:hover {
+  background: var(--yellow-dark);
+  cursor: pointer;
+  transition: 3s all;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 800px) {
+  .contato__titulo {
+    font-size: 2rem;
+    padding: 1.5rem 1rem;
+  }
+  .contato__subtitulo {
+    line-height: 1.2;
+    font-size: 1rem;
+    text-align: justify;
+    padding: 0.5rem;
+  }
+}
